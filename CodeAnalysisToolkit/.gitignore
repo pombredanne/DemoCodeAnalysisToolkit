@@ -4,4 +4,5 @@ TestResults
 packages/*/
 *.suo
 *.user
-CodeAnalyzer/packages/
+*.html
+!External/*
