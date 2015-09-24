@@ -45,6 +45,7 @@ namespace CodeAnalysisToolkit
             MethodContext mc = ContextBuilder.BuildMethodContext(guiMethodXElement);
             MethodDeclarationNode mdn = new MethodDeclarationNode("saveGUIParams", mc);
             BaseVerbRule rule = new BaseVerbRule(posData, tagger, splitter);
+            Console.WriteLine("InClass = " + rule.InClass(mdn));
             rule.ConstructSwum(mdn);
             Console.WriteLine(mdn.ToString());
         }
