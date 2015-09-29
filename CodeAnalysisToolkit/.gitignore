@@ -6,3 +6,4 @@ packages/*/
 *.user
 *.html
 !External/*
+!External/log4net-current-bin-newkey/log4net-1.2.11/bin/net/4.0/release/*
